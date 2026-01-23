@@ -1,0 +1,144 @@
+.skills {
+  padding: 100px 2rem;
+  background-color: #0f0f0f;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+/* Rejilla de recuadros para skills */
+.skill-box-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0.75rem;
+  align-items: start;
+}
+
+.skill-box {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  padding: 0.6rem 0.8rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  color: #e6eefc;
+}
+
+.skill-box-name {
+  font-weight: 500;
+}
+
+.skill-box-badge {
+  background: rgba(74, 158, 255, 0.12);
+  color: #4a9eff;
+  padding: 3px 8px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.skill-category {
+  background: rgba(26, 26, 46, 0.5);
+  padding: 2rem;
+  border-radius: 15px;
+  border: 1px solid rgba(74, 158, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.skill-category:hover {
+  border-color: rgba(74, 158, 255, 0.5);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(74, 158, 255, 0.1);
+}
+
+.category-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #4a9eff;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.skills-list {
+  display: block;
+}
+
+.skill-item {
+  width: 100%;
+}
+
+.skill-header {
+  display: none;
+}
+
+.skill-name {
+  color: #e0e0e0;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.skill-percentage {
+  color: #4a9eff;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.skill-bar {
+  display: none;
+}
+
+.skill-progress {
+  display: none;
+}
+
+.skill-progress::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.3),
+    transparent
+  );
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@media (max-width: 768px) {
+  .skills {
+    padding: 80px 1rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-category {
+    padding: 1.5rem;
+  }
+}
+
+
+

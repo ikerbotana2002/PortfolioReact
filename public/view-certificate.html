@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ver Certificado</title>
+    <style>
+      body{font-family: Arial, Helvetica, sans-serif; margin:0; padding:20px; background:#f7f7f7}
+      .container{max-width:900px;margin:0 auto;background:#fff;padding:20px;border-radius:8px;box-shadow:0 2px 10px rgba(0,0,0,.08)}
+      h1{font-size:20px;margin:0 0 12px}
+      .image-wrap{text-align:center;margin-bottom:18px}
+      .image-wrap img{max-width:100%;height:auto;border:1px solid #e1e1e1}
+      .pdf-wrap{height:600px;border:1px solid #ddd}
+      .notice{margin:12px 0;color:#444}
+      .actions{display:flex;gap:8px}
+      .btn{display:inline-block;padding:8px 12px;background:#0b69ff;color:#fff;text-decoration:none;border-radius:6px}
+      .btn.secondary{background:#666}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Certificado - Observatorio Tecnológico</h1>
+      <div class="image-wrap">
+        <img src="/images/CertificadoParticipaciónObservatorioHPSCDS.png" alt="CertificadoParticipaciónObservatorioHPSCDS" />
+      </div>
+      <p class="notice">Se mostrará el PDF del certificado abajo si está disponible.</p>
+      <div class="actions">
+        <a class="btn" href="/docs/ParticipacionObservatorioHP.pdf" target="_blank" rel="noopener">Abrir PDF en pestaña nueva</a>
+        <a class="btn secondary" href="/images/CertificadoParticipaciónObservatorioHPSCDS.png" target="_blank" rel="noopener">Ver sólo imagen</a>
+      </div>
+      <div class="pdf-wrap" style="margin-top:16px;">
+        <iframe src="/docs/ParticipacionObservatorioHP.pdf" frameborder="0" width="100%" height="100%">Tu navegador no puede mostrar PDFs incrustados. Descarga el PDF <a href="/docs/ParticipacionObservatorioHP.pdf">aquí</a>.</iframe>
+      </div>
+    </div>
+  </body>
+</html>
