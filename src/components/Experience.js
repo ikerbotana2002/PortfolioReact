@@ -5,9 +5,16 @@ import { FaBriefcase } from 'react-icons/fa';
 const Experience = () => {
   const experienceData = [
     {
-      title: 'Beca Programa Clave',
+      title: 'Desarrollador Full Stack',
+      company: 'Garcia Perez Consulting',
+      period: 'Ene 2026 - Actualidad',
+      description: 'Desarrollo de aplicaciones web full stack.',
+      technologies: ['Full Stack', 'Frontend', 'Backend', 'PHP', 'Vue', 'Docker', 'SQL']
+    },
+    {
+      title: 'Desarrollador de Software',
       company: 'Mobente Gea Innovation SL',
-      period: 'Sep 2025 - Actualidad',
+      period: 'Sep 2025 - Ene 2026',
       description: 'Desarrollo web, diseño y entrenamiento de IA, administración de sistemas.',
       technologies: ['React', 'Next.js', 'Node.js', 'IA', 'DevOps']
     },

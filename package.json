@@ -1,7 +1,7 @@
 {
   "name": "portfolio-react",
   "version": "1.0.0",
-  "description": "Portfolio personal de Iker Botana Vázquez",
+  "description": "Portfolio profesional de Iker Botana Vázquez — Full-Stack Developer y Software Engineer",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",

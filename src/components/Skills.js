@@ -7,19 +7,19 @@ const Skills = () => {
     {
       category: 'Lenguajes de Programación',
       skills: [
-        { name: 'JavaScript', level: 85 },
-        { name: 'Python', level: 80 },
-        { name: 'Java', level: 75 },
-        { name: 'C++', level: 70 },
-        { name: 'TypeScript', level: 75 }
+        { name: 'JavaScript' },
+        { name: 'Python' },
+        { name: 'Java' },
+        { name: 'PHP' },
+        { name: 'TypeScript' }
       ]
     },
     {
       category: 'Frontend',
       skills: [
-        { name: 'React', level: 90 },
-        { name: 'HTML/CSS', level: 85 },
-        { name: 'Angular', level: 70 }
+        { name: 'React' },
+        { name: 'HTML/CSS' },
+        { name: 'Angular'}
       ]
     },
     {
